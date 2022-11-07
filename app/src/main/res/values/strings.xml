@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ImsCalculator</string>
+    <string name="Boas_vindas">Bem vindo ao Healthy Lifestyle</string>
+    <string name="Introducao_aplicativo">orientações para vida saudavel</string>
+    <string name="instruções">Informe os dados solicitados abaixo</string>
+    <string name="vamos_usar_as_informa_es_acima_para_calcular_seu_indice_de_massa_corporal_e_taxa_de_metabolismo_bassal">Vamos usar as informações acima para calcular seu indice de massa corporal e taxa de metabolismo bassal</string>
+    <string name="vamos_come_ar">vamos começar</string>
+    <string name="altura">altura</string>
+    <string name="peso">peso</string>
+    <string name="idade">idade</string>
+    <string name="proseguir">Proseguir</string>
+    <string name="aqui_podera_fazer_uma_rapida_avalia_o_fisica_para_ter_uma_base_de_como_come_ar_cuidar_mais_de_sua_saude">Aqui podera fazer uma rapida avaliação fisica para ter uma base de como começar cuidar mais de sua saude</string>
+</resources>
