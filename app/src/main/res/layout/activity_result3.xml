@@ -15,8 +15,8 @@
         android:layout_marginTop="40dp"
         android:text="TextView"
         android:textSize="16sp"
-        app:layout_constraintStart_toEndOf="@+id/editTextTextPersonName7"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName6" />
+        app:layout_constraintStart_toEndOf="@+id/editTextTextMuitoAtivo"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextAtivo" />
 
     <TextView
         android:id="@+id/textViewImc"
@@ -42,7 +42,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName2"
+        android:id="@+id/EditTextDiagnostico"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -61,10 +61,10 @@
         android:text="TextView"
         android:textSize="16sp"
         app:layout_constraintBottom_toTopOf="@+id/textViewMeta"
-        app:layout_constraintStart_toEndOf="@+id/editTextTextPersonName2" />
+        app:layout_constraintStart_toEndOf="@+id/EditTextDiagnostico" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName3"
+        android:id="@+id/EditTextMetabolismoBasal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -83,11 +83,11 @@
         android:layout_marginTop="6dp"
         android:text="TextView"
         android:textSize="16sp"
-        app:layout_constraintStart_toEndOf="@+id/editTextTextPersonName3"
-        app:layout_constraintTop_toTopOf="@+id/editTextTextPersonName3" />
+        app:layout_constraintStart_toEndOf="@+id/EditTextMetabolismoBasal"
+        app:layout_constraintTop_toTopOf="@+id/EditTextMetabolismoBasal" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName4"
+        android:id="@+id/editTextTextConsumoCalorico"
         android:layout_width="0dp"
         android:layout_height="40dp"
         android:layout_marginStart="60dp"
@@ -97,13 +97,13 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:text="consumo calórico recomendado"
-        app:layout_constraintBottom_toBottomOf="@+id/editTextTextPersonName5"
+        app:layout_constraintBottom_toBottomOf="@+id/editTextTextSedentario"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/editTextTextPersonName3" />
+        app:layout_constraintTop_toTopOf="@+id/EditTextMetabolismoBasal" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName5"
+        android:id="@+id/editTextTextSedentario"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
@@ -124,11 +124,11 @@
         android:layout_marginBottom="5dp"
         android:text="TextView"
         android:textSize="16sp"
-        app:layout_constraintBottom_toBottomOf="@+id/editTextTextPersonName5"
-        app:layout_constraintStart_toEndOf="@+id/editTextTextPersonName5" />
+        app:layout_constraintBottom_toBottomOf="@+id/editTextTextSedentario"
+        app:layout_constraintStart_toEndOf="@+id/editTextTextSedentario" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName6"
+        android:id="@+id/editTextTextAtivo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="23dp"
@@ -146,11 +146,11 @@
         android:layout_marginTop="38dp"
         android:text="TextView"
         android:textSize="16sp"
-        app:layout_constraintStart_toEndOf="@+id/editTextTextPersonName6"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName5" />
+        app:layout_constraintStart_toEndOf="@+id/editTextTextAtivo"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextSedentario" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName7"
+        android:id="@+id/editTextTextMuitoAtivo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="23dp"
